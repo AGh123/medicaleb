@@ -1,0 +1,17 @@
+<header class="header">
+  <img
+    class="header__logo"
+    routerLink="/"
+    src="medicaleb_logo.png"
+    alt="Medicaleb Logo"
+  />
+
+  <nav class="header__nav">
+    <a routerLink="/" routerLinkActive="active">Home</a>
+    <a routerLink="/products" routerLinkActive="active">Products</a>
+    <a routerLink="/about" routerLinkActive="active">About Us</a>
+    <a routerLink="/contact" routerLinkActive="active">Contact</a>
+  </nav>
+
+  <app-icon (click)="openDrawer()" class="header__menu">menu</app-icon>
+</header>
