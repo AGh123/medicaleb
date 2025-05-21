@@ -10,10 +10,6 @@
   align-items: center;
 
   @media (max-width: 768px) {
-    padding: 1rem 2rem;
-  }
-
-  @media (max-width: 425px) {
     justify-content: space-between;
   }
 
@@ -38,7 +34,7 @@
       font-weight: 600;
     }
 
-    @media (max-width: 425px) {
+    @media (max-width: 768px) {
       display: none;
     }
   }
@@ -46,7 +42,7 @@
   &__menu {
     display: block;
 
-    @media (min-width: 426px) {
+    @media (min-width: 769px) {
       display: none;
     }
   }
