@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+:root {
+  /* Primary UI Blue (used in buttons, icons, titles) */
+  --primary: #1c596c;
+  --primary-light: #337a91;
+
+  /* Accent Teal (used subtly in hero and highlights) */
+  --accent: #5dc1ac;
+
+  /* Background Shades */
+  --bg-light: #f3fafc; /* hero and section backgrounds */
+  --bg-white: #ffffff; /* cards, buttons */
+
+  /* Text Colors */
+  --text-dark: #163b44; /* headers and body */
+  --text-muted: #5c7c85; /* descriptions/subtext */
+
+  /* Border & Line Color */
+  --border-light: #e0e7eb;
+
+  /* Button Hover & Shadow Overlay */
+  --btn-hover: #174d5b;
+  --overlay-light: rgba(28, 89, 108, 0.05);
+
+  /* Error/Alert Color */
+  --color-alert: #e63946;
+}
